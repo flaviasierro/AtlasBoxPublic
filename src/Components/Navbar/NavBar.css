@@ -1,0 +1,40 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1127px;
+  align-items: center;
+}
+
+.input-button-container {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.menu-container input {
+  outline: none;
+  padding-left: 10px;
+  flex: 1;
+  margin-right: 10px; /* Adicione a margem direita ao input */
+}
+
+.menu-container button {
+  /* Estilize o botão conforme necessário */
+  background-color: #f3f3f3;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-container button:hover{
+  background-color: #ccc;
+}
+
+
+/* MENU ITEM*/
+.no-application { 
+  font-size: 25px;
+}

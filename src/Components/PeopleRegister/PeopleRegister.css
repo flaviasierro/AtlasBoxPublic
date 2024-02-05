@@ -1,0 +1,68 @@
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card .card-icon {
+  display: flex;
+}
+.card-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o link de cadastro de pessoas */
+.card a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.container-people{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1127px;
+  align-items: center;
+}
+.btn-add{
+  display: flex;
+  align-self: flex-start;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #cecece;
+  background-color: #f3f3f3;
+  padding: 15px 18px;
+  border-radius: 5px;
+}
+
+.btn-add:hover{
+  background-color: #cecece;
+}
+

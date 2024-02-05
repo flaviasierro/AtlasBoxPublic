@@ -1,0 +1,85 @@
+.table-wrapper {
+  width: 100%;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: auto;
+  border-collapse: collapse;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 5px;
+  white-space: nowrap;
+  width: 100em;
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+.table thead {
+  background-color: #F9FAFB;
+  color: #222;
+}
+
+.table th, .table td{
+  padding: 0.8rem;
+}
+
+.table td{
+  border-top: 0.5px solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table tbody tr:hover{
+  background-color: #eee;
+}
+
+.expand {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions svg{
+  cursor: pointer;
+}
+.btn-delete{
+  color: #e10d05;
+}
+
+.no-columns th {
+  width: 100%!important;
+}
+
+.empty-table {
+  border: 1px solid #ddd; /* Adicione uma borda à div */
+  margin: 10px; /* Adicione margens para dar espaço ao redor */
+  width: 100%;
+}
+
+.empty-table-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd; /* Adicione uma borda na parte inferior do cabeçalho */
+  height: 45px;
+  background-color: #F9FAFB;
+}
+
+.empty-table-header > div {
+  flex: 1;
+}
+
+.empty-table-content {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adicione uma margem superior para espaçamento entre o cabeçalho e o conteúdo */
+  padding: 15px;
+}
+
+.empty-table-content span {
+  margin-left: 10px; /* Adicione uma margem à esquerda para espaçamento entre o ícone e o texto */
+}
+
