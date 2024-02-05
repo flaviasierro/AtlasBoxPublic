@@ -49,7 +49,7 @@ const PeopleRegister = () => {
       setError(() => false);
       // Modo de criação
       updatedState.push(form);
-    //  clearFormFields();
+      clearFormFields();
 
 
       setState(updatedState);
@@ -70,7 +70,7 @@ const PeopleRegister = () => {
   }
 
   const handleOpenModal = () => {
-    //clearFormFields();
+    clearFormFields();
     setOpenModal(true);
   };
 
