@@ -8,7 +8,8 @@ body {
   font-family: 'Titillium Web', 'Montserrat',sans-serif;
   background-color: #fff;
 }
-ul, li{
+ul, 
+li{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
